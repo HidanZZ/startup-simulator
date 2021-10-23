@@ -20,20 +20,20 @@ var question_index;
 var loading=true;
 console.log('here')
 readTextFile("cardText.json", function (text) {
-    console.log(text)
     options = JSON.parse(text);
 
 });
 readTextFile("characters.json", function (text) {
-    console.log(text)
     characters = JSON.parse(text);
     question_index = shuffle([...Array(options[gameOptions.time.current.quarter - 1].length).keys()]);
 
 });
-if (characters && options){
-    loading=false
-}
+
 const load=setInterval(()=>{
+    console.log(loading)
+    if (characters && options){
+        loading=false
+    }
     if (!loading){
         introductionButton.addEventListener("click", startGame);
         clearInterval(load)
