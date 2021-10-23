@@ -21,11 +21,11 @@ var loading=true;
 console.log('here')
 readTextFile("cardText.json", function (text) {
     options = JSON.parse(text);
+    question_index = shuffle([...Array(options[gameOptions.time.current.quarter - 1].length).keys()]);
 
 });
 readTextFile("characters.json", function (text) {
     characters = JSON.parse(text);
-    question_index = shuffle([...Array(options[gameOptions.time.current.quarter - 1].length).keys()]);
 
 });
 
