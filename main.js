@@ -35,6 +35,7 @@ const load=setInterval(()=>{
         loading=false
     }
     if (!loading){
+        introductionButton.querySelector(".button-middle-content").innerHTML="I'm Ready !!"
         introductionButton.addEventListener("click", startGame);
         clearInterval(load)
     }
