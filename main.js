@@ -17,6 +17,7 @@ function readTextFile(file, callback) {
 var options;
 var characters;
 var question_index;
+var loading=true;
 console.log('here')
 readTextFile("cardText.json", function (text) {
     console.log(text)
@@ -29,13 +30,15 @@ readTextFile("characters.json", function (text) {
     question_index = shuffle([...Array(options[gameOptions.time.current.quarter - 1].length).keys()]);
 
 });
-// const characters = [{
-//     id: 1,
-//     firstName: "Sarah",
-//     lastName: "Jones",
-//     role: "Stylist",
-//     cardImg: "img/arab.jpg"
-// }]
+if (characters && options){
+    loading=false
+}
+const load=setInterval(()=>{
+    if (!loading){
+        introductionButton.addEventListener("click", startGame);
+        clearInterval(load)
+    }
+},100)
 const findCharacterById = (id) => {
     return characters.find(o => o.id === id);
 }
@@ -184,7 +187,7 @@ function renderQuestion() {
 
 // connect buttons with functions
 startButton.addEventListener("click", startIntroduction);
-introductionButton.addEventListener("click", startGame);
+
 buttonYes.addEventListener("click", () => {
     renderResult(0)
 });
