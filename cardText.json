@@ -1,0 +1,223 @@
+[
+[
+    {
+        "characterId": 2,
+        "prompt": "Given how successful your Paris concert was, I'd like a Lamborghini for my dog.",
+        "options": [
+            {
+             "optionText": "Yeah right!",
+             "followerDelta": -50,
+             "happinessDelta": -1,
+			 "timeDelta": -10
+            },
+            {
+                "optionText": "You deserve it",
+                "followerDelta": 50,
+                "happinessDelta": 1,
+				"timeDelta": -90
+            }
+        ] 
+    },
+    {
+        "characterId": 1,
+        "prompt": "Kylie J invited you to her Bora Bora yacht club party. Unfortunately, if you go you'll have to cancel the Montreal tour stop.",
+        "options": [
+            {
+                "optionText": "Chill with Kylie",
+                "followerDelta": 60,
+                "happinessDelta": -1,
+				"timeDelta": -30
+            },
+            {
+                "optionText": "Turn down Kylie's invite",
+                "followerDelta": -60,
+                "happinessDelta": 2,
+				"timeDelta": -50
+            }
+        ]
+    },
+    {
+        "characterId": 3,
+        "prompt": "A fan will pay you $50,000 to perform at her birthday party. It's risky but could make you look more generous.",
+        "options": [
+            {
+                "optionText": "Take the risk",
+                "followerDelta": 100,
+                "happinessDelta": -2,
+				"timeDelta": -10
+            },
+            {
+                "optionText": "Only $50,000?",
+                "followerDelta": -200,
+                "happinessDelta": 0,
+				"timeDelta": -60
+            }
+        ]
+    }
+],[
+    {
+        "characterId": 2,
+        "prompt": "Given how successful your Paris concert was, I'd like a Lamborghini for my dog.",
+        "options": [
+            {
+             "optionText": "Yeah right!",
+             "followerDelta": -50,
+             "happinessDelta": -1,
+			 "timeDelta": -10
+            },
+            {
+                "optionText": "You deserve it",
+                "followerDelta": 50,
+                "happinessDelta": 1,
+				"timeDelta": -90
+            }
+        ] 
+    },
+    {
+        "characterId": 1,
+        "prompt": "Kylie J invited you to her Bora Bora yacht club party. Unfortunately, if you go you'll have to cancel the Montreal tour stop.",
+        "options": [
+            {
+                "optionText": "Chill with Kylie",
+                "followerDelta": 60,
+                "happinessDelta": -1,
+				"timeDelta": -30
+            },
+            {
+                "optionText": "Turn down Kylie's invite",
+                "followerDelta": -60,
+                "happinessDelta": 2,
+				"timeDelta": -50
+            }
+        ]
+    },
+    {
+        "characterId": 3,
+        "prompt": "A fan will pay you $50,000 to perform at her birthday party. It's risky but could make you look more generous.",
+        "options": [
+            {
+                "optionText": "Take the risk",
+                "followerDelta": 100,
+                "happinessDelta": -2,
+				"timeDelta": -10
+            },
+            {
+                "optionText": "Only $50,000?",
+                "followerDelta": -200,
+                "happinessDelta": 0,
+				"timeDelta": -60
+            }
+        ]
+    }
+],[
+    {
+        "characterId": 2,
+        "prompt": "Given how successful your Paris concert was, I'd like a Lamborghini for my dog.",
+        "options": [
+            {
+             "optionText": "Yeah right!",
+             "followerDelta": -50,
+             "happinessDelta": -1,
+			 "timeDelta": -10
+            },
+            {
+                "optionText": "You deserve it",
+                "followerDelta": 50,
+                "happinessDelta": 1,
+				"timeDelta": -90
+            }
+        ] 
+    },
+    {
+        "characterId": 1,
+        "prompt": "Kylie J invited you to her Bora Bora yacht club party. Unfortunately, if you go you'll have to cancel the Montreal tour stop.",
+        "options": [
+            {
+                "optionText": "Chill with Kylie",
+                "followerDelta": 60,
+                "happinessDelta": -1,
+				"timeDelta": -30
+            },
+            {
+                "optionText": "Turn down Kylie's invite",
+                "followerDelta": -60,
+                "happinessDelta": 2,
+				"timeDelta": -50
+            }
+        ]
+    },
+    {
+        "characterId": 3,
+        "prompt": "A fan will pay you $50,000 to perform at her birthday party. It's risky but could make you look more generous.",
+        "options": [
+            {
+                "optionText": "Take the risk",
+                "followerDelta": 100,
+                "happinessDelta": -2,
+				"timeDelta": -10
+            },
+            {
+                "optionText": "Only $50,000?",
+                "followerDelta": -200,
+                "happinessDelta": 0,
+				"timeDelta": -60
+            }
+        ]
+    }
+],[
+    {
+        "characterId": 2,
+        "prompt": "Given how successful your Paris concert was, I'd like a Lamborghini for my dog.",
+        "options": [
+            {
+             "optionText": "Yeah right!",
+             "followerDelta": -50,
+             "happinessDelta": -1,
+			 "timeDelta": -10
+            },
+            {
+                "optionText": "You deserve it",
+                "followerDelta": 50,
+                "happinessDelta": 1,
+				"timeDelta": -90
+            }
+        ] 
+    },
+    {
+        "characterId": 1,
+        "prompt": "Kylie J invited you to her Bora Bora yacht club party. Unfortunately, if you go you'll have to cancel the Montreal tour stop.",
+        "options": [
+            {
+                "optionText": "Chill with Kylie",
+                "followerDelta": 60,
+                "happinessDelta": -1,
+				"timeDelta": -30
+            },
+            {
+                "optionText": "Turn down Kylie's invite",
+                "followerDelta": -60,
+                "happinessDelta": 2,
+				"timeDelta": -50
+            }
+        ]
+    },
+    {
+        "characterId": 3,
+        "prompt": "A fan will pay you $50,000 to perform at her birthday party. It's risky but could make you look more generous.",
+        "options": [
+            {
+                "optionText": "Take the risk",
+                "followerDelta": 100,
+                "happinessDelta": -2,
+				"timeDelta": -10
+            },
+            {
+                "optionText": "Only $50,000?",
+                "followerDelta": -200,
+                "happinessDelta": 0,
+				"timeDelta": -60
+            }
+        ]
+    }
+]
+]

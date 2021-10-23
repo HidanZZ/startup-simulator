@@ -1,0 +1,1088 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, footer, header, nav, section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption, figure, main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b, strong {
+    font-weight: inherit;
+    font-weight: bolder
+}
+
+code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio, video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details, menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+[hidden], template {
+    display: none
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle
+}
+
+svg {
+    width: 100%;
+    height: auto
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+textarea {
+    resize: vertical
+}
+
+.hidden {
+    display: none !important
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+*, :after, :before {
+    box-sizing: border-box
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10
+}
+
+.header a.toggl-logo {
+    content: "";
+    background: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/toggl_header.96073974.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end
+}
+
+@media screen and (max-width: 950px) {
+    #screen-credits .header, #screen-game .header, #screen-tutorial .header {
+        display: none
+    }
+}
+
+.header li {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer
+}
+
+.header li:last-child {
+    margin-right: 10px
+}
+
+.header li img {
+    height: 20px
+}
+
+@media screen and (max-width: 700px) {
+    .header a.toggl-logo {
+        content: "";
+        background: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/toggl-small-logo.b65bc5e1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 97px;
+        width: 100px
+    }
+
+    .header li {
+        margin: 0 15px
+    }
+
+    .header li img {
+        height: 15px
+    }
+
+    .logo {
+        margin-top: 40px
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header a.toggl-logo {
+        content: "";
+        background: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/toggl-time-tracker-icon.55208d6a.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 17px;
+        margin-left: 10px;
+        height: 50px;
+        width: 40px
+    }
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: VT323, monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: #282828;
+    color: #efefef
+}
+
+body.start #screen-start.board {
+    display: inline-block;
+    box-shadow: none
+}
+
+body.tutorial #screen-tutorial.board {
+    display: inline-block
+}
+
+body.game #screen-game.board {
+    display: none;
+    overflow: hidden
+}
+
+body.credits #screen-credits.board, body.gameover #screen-gameover.board {
+    display: inline-block
+}
+
+.board {
+    position: relative;
+    width: 320px;
+    height: 568px;
+    top: calc(50vh - 284px);
+    background-color: #626275;
+    display: none;
+    padding: 15px 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    border-radius: 10px
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        height: 140px;
+    }
+
+    .board {
+        top: 0;
+        width: 100%;
+        height: 100%
+    }
+}
+
+#screen-loading.board {
+    background: transparent
+}
+
+body.loading #screen-loading.board {
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center
+}
+
+.loader {
+    display: block;
+    width: 80px;
+    font-size: 16px
+}
+
+.loader-text {
+    font-size: 36px;
+    text-transform: uppercase
+}
+
+.loader svg {
+    margin-bottom: 10px
+}
+
+.loader path, .loader rect {
+    fill: #fff
+}
+
+.hud {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between
+}
+
+.hud-label {
+    font-size: 20px
+}
+
+.followers {
+    position: relative;
+    text-align: left;
+    width: 100px
+}
+
+.followers-unit {
+    color: silver
+}
+
+.followers-change {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: -10px
+}
+
+.happiness-value > * {
+    width: 24px
+}
+
+.happiness-value > .RAGE {
+    -webkit-animation-name: happiness-rage;
+    animation-name: happiness-rage;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.happiness-value > .JOY {
+    -webkit-animation-name: happiness-joy;
+    animation-name: happiness-joy;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+@-webkit-keyframes happiness-rage {
+    0% {
+        transform: translateX(0)
+    }
+    33% {
+        transform: translateX(-2px)
+    }
+    66% {
+        transform: translateX(2px)
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+
+@keyframes happiness-rage {
+    0% {
+        transform: translateX(0)
+    }
+    33% {
+        transform: translateX(-2px)
+    }
+    66% {
+        transform: translateX(2px)
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes happiness-joy {
+    0% {
+        transform: translateY(0)
+    }
+    66% {
+        transform: translateY(3px)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+@keyframes happiness-joy {
+    0% {
+        transform: translateY(0)
+    }
+    66% {
+        transform: translateY(3px)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+.calendar {
+    width: 100px
+}
+
+.calendar-week {
+    text-align: right
+}
+
+.calendar-bar {
+    background-color: #535363;
+    display: inline-block;
+    width: 80px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 20px
+}
+
+.calendar-bar-fill {
+    background-color: #26bb26;
+    width: 100%
+}
+
+.calendar-bar-delta, .calendar-bar-fill {
+    float: right;
+    display: inline-block;
+    height: 15px
+}
+
+.calendar-bar-delta {
+    background-color: red;
+    width: 0
+}
+
+.card-container {
+    position: relative
+}
+
+.card {
+    width: 100%;
+    padding: 0 30px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    border-radius: 2px;
+    background: #efefef;
+    min-height: 300px;
+    transform-origin: 50% 50% 0;
+    transform: translateX(140%)
+}
+
+.card, .card:before {
+    top: 0;
+    position: absolute
+}
+
+.card:before {
+    content: "";
+    display: block;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    outline: 5px solid #968383
+}
+
+.card.defeat {
+    background: #1f1f1f;
+    outline: 5px solid #493d3d
+}
+
+.card1 {
+    top: 0;
+    position: absolute
+}
+
+.card-picture {
+    position: relative;
+    height: 150px
+}
+
+.card-picture-image {
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/card.823b9881.png);
+    background-size: 100%;
+    width: 170px;
+    height: 170px;
+    z-index: 2;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -85px
+}
+
+.card-picture-shadow {
+    position: absolute;
+    background: rgba(0, 0, 0, .2);
+    height: 147px;
+    width: 170px;
+    top: 0;
+    z-index: 1;
+    left: -7px;
+    left: 50%;
+    margin-left: -92px
+}
+
+.card-description {
+    color: #000;
+    text-align: left
+}
+
+.card.defeat .card-description {
+    color: #efefef
+}
+
+.card-description-character {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 7px
+}
+
+.card-description-question {
+    word-wrap: break-word;
+    line-height: 18px
+}
+
+.buttons {
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 96px);
+    left: 48px
+}
+
+.button {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 15px
+}
+
+.button:hover {
+    transform: scale(1.05)
+}
+
+.buttons .button:last-child {
+    margin-bottom: 0
+}
+
+.button[disabled] {
+    cursor: default;
+    pointer-events: none
+}
+
+.button.picked {
+    transform: scale(.95)
+}
+
+.button.picked:after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3)
+}
+
+.button-top {
+    position: relative;
+    background-color: #fff;
+    height: 4px
+}
+
+.button-top:before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    background-color: #898989
+}
+
+.button-middle {
+    background-color: #d6d6d6;
+    display: table;
+    width: 100%;
+    line-height: 23px;
+    color: #000
+}
+
+.button-middle:before {
+    content: "";
+    width: 4px;
+    background-color: #898989;
+    display: table-cell
+}
+
+.button-middle-content {
+    display: inline-block;
+    padding: 4px 0 6px;
+    text-decoration: none;
+    color: #000
+}
+
+.button-middle:after {
+    content: "";
+    width: 4px;
+    background-color: #fff;
+    display: table-cell
+}
+
+.button-bottom {
+    position: relative;
+    background-color: #898989;
+    height: 4px
+}
+
+.button-bottom:before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: #898989;
+    z-index: 2
+}
+
+.button-bottom:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 1
+}
+
+.button:active .button-top {
+    background-color: #898989
+}
+
+.button:active .button-top:before {
+    background-color: #fff
+}
+
+.button:active .button-middle {
+    background-color: #c6c6c6
+}
+
+.button:active .button-middle:before {
+    background-color: #fff
+}
+
+.button:active .button-middle-content {
+    transform: translateX(-2px) translateY(2px)
+}
+
+.button:active .button-middle:after {
+    background-color: #898989
+}
+
+.button:active .button-bottom, .button:active .button-bottom:before {
+    background-color: #fff
+}
+
+.button:active .button-bottom:after {
+    background-color: #898989
+}
+
+.button-mute {
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/unmuted.6745ff80.png);
+    position: absolute;
+    display: none;
+    bottom: 11px;
+    right: 11px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-size: cover;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+    opacity: .6
+}
+
+.muted {
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/muted.3057b5bd.png)
+}
+
+.button-mute:hover {
+    opacity: 1
+}
+
+#screen-start .button-mute {
+    box-shadow: 2px 2px 0 #d3d3d3;
+    background-color: #fff
+}
+
+@-webkit-keyframes drift {
+    to {
+        transform: translate(calc(-100vw - 150px))
+    }
+}
+
+@keyframes drift {
+    to {
+        transform: translate(calc(-100vw - 150px))
+    }
+}
+
+.seagull {
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    top: 10vh;
+    right: 0;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/seagull-sheet-large.cc5dea18.png);
+    background-repeat: no-repeat;
+    background-size: 100px 15px;
+    -webkit-animation: seagulls-ftw .6s steps(3) infinite running, drift 75s infinite running;
+    animation: seagulls-ftw .6s steps(3) infinite running, drift 75s infinite running
+}
+
+.seagull-2 {
+    top: 30vh;
+    -webkit-animation-delay: -20s;
+    animation-delay: -20s
+}
+
+.seagull-3 {
+    top: 70vh;
+    -webkit-animation-delay: -10s;
+    animation-delay: -10s
+}
+
+@-webkit-keyframes seagulls-ftw {
+    to {
+        background-position-x: -75px
+    }
+}
+
+@keyframes seagulls-ftw {
+    to {
+        background-position-x: -75px
+    }
+}
+
+.wave {
+    position: absolute;
+    bottom: 11px;
+    height: 3px;
+    width: 15px;
+    left: 32%;
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/wave.af8f608a.png);
+    background-repeat: no-repeat;
+    -webkit-animation: wave 4s steps(2) infinite running;
+    animation: wave 4s steps(2) infinite running
+}
+
+.wave:nth-of-type(2) {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s
+}
+
+.wave:nth-of-type(3) {
+    -webkit-animation-delay: -1.5s;
+    animation-delay: -1.5s
+}
+
+.wave:nth-of-type(4) {
+    -webkit-animation-delay: -.5s;
+    animation-delay: -.5s
+}
+
+@media screen and (max-width: 900px) {
+    .wave {
+        display: none
+    }
+}
+
+@-webkit-keyframes wave {
+    to {
+        opacity: .5;
+        transform: translateX(6px) translateY(2px)
+    }
+}
+
+@keyframes wave {
+    to {
+        opacity: .5;
+        transform: translateX(6px) translateY(2px)
+    }
+}
+
+.list-credits {
+    list-style: none;
+    padding: 0
+}
+
+.list-credits li {
+    margin-bottom: 2px;
+    line-height: 20px
+}
+
+#screen-credits a {
+    color: #fff
+}
+
+body {
+    /*background-color: #9ac7ff;*/
+    background-image: url(img/bg.gif);
+    background-size: cover;
+    background-position: 50% 100%;
+    background-repeat: no-repeat
+}
+
+
+.clouds {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed
+}
+
+.cloud {
+    position: absolute;
+    width: 150px;
+    height: 68px;
+    right: -150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(0);
+    -webkit-animation-name: drift;
+    animation-name: drift;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -webkit-animation-play-state: running;
+    animation-play-state: running
+}
+
+.cloud-1 {
+    top: 20%;
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/cloud-01.a0e54d1f.png)
+}
+
+.cloud-2 {
+    top: 60%;
+    -webkit-animation-delay: -20s;
+    animation-delay: -20s;
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/cloud-02.f580903f.png)
+}
+
+
+/*@media screen and (max-width: 700px) {*/
+/*    #screen-start {*/
+/*        background: #9ac7ff;*/
+/*        background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/title-screen-background.a5bd098b.png);*/
+/*        background-size: 100%;*/
+/*        background-position: 50% 100%;*/
+/*        background-repeat: no-repeat*/
+/*    }*/
+/*}*/
+
+#screen-start .logo {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+    background-image: url(img/logotext.png);
+    background-position-x: 50%;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+#screen-start .logoImage {
+    width: 100%;
+    height: 256px;
+    margin-bottom: 50px;
+    background-image: url(img/mic.gif);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: contain;
+}
+
+#screen-start .sparkle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated
+}
+
+#screen-start .sparkle, #screen-start .sparkle0 {
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/sparkle0.873454c2.png)
+}
+
+#screen-start .sparkle1 {
+    background-image: url(https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/sparkle1.bc9436d6.png)
+}
+
+.start-highscore {
+    margin: 10px 0;
+    color: #000
+}
+
+.list-tutorial {
+    list-style: none;
+    padding: 0;
+    margin: 48px 0
+}
+
+.list-tutorial li {
+    line-height: 20px;
+    margin-bottom: 35px
+}
+

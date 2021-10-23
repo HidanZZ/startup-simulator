@@ -1,0 +1,191 @@
+[{
+    "id": 1,
+    "firstName": "Roxanna",
+    "lastName": "Mae",
+    "role": "stylist",
+    "cardImg": "img/example.png"
+},
+{
+    "id": 2,
+    "firstName": "Brick",
+    "lastName": "Wilder",
+    "role": "A&R manager",
+    "cardImg": "img/example.png"
+},
+{
+    "id": 3,
+    "firstName": "Nina",
+    "lastName": "Velasquez",
+    "role": "publicist",
+    "cardImg": "img/example.png"
+
+},
+{
+    "id": 4,
+    "firstName": "Jackson",
+    "lastName": "Brody",
+    "role": "tour manager",
+    "cardImg": ""
+},
+{
+    "id": 5,
+    "firstName": "Axel",
+    "lastName": "Rodgers",
+    "role": "concert stage designer",
+    "cardImg": ""
+},
+{
+    "id": 6,
+    "firstName": "Lil Cartier",
+    "lastName": "",
+    "role": "celebrity friend",
+    "cardImg": ""
+},
+{
+    "id": 7,
+    "firstName": "Amjad",
+    "lastName": "Masad",
+    "role": "label exec",
+    "cardImg": ""
+},
+{
+    "id": 8,
+    "firstName": "Amalia",
+    "lastName": "Partridge",
+    "role": "up-and-coming TikToker",
+    "cardImg": ""
+},
+{
+    "id": 9,
+    "firstName": "Jordie",
+    "lastName": "Michaelson",
+    "role": "fan",
+    "cardImg": ""
+},
+{
+    "id": 10,
+    "firstName": "Tay-Tay",
+    "lastName": "Jacobs",
+    "role": "paparazzo",
+    "cardImg": ""
+},
+{
+    "id": 11,
+    "firstName": "Shawn",
+    "lastName": "Wilder",
+    "role": "road crew manager",
+    "cardImg": ""
+},
+{
+    "id": 12,
+    "firstName": "Holla Day",
+    "lastName": "X",
+    "role": "pyrotechnics",
+    "cardImg": ""
+},
+{
+    "id": 13,
+    "firstName": "Paulo",
+    "lastName": "Franco",
+    "role": "sound technician",
+    "cardImg": ""
+},
+{
+    "id": 14,
+    "firstName": "Melody",
+    "lastName": "Marquez",
+    "role": "talk show host",
+    "cardImg": ""  
+},
+{
+    "id": 15,
+    "firstName": "Marty",
+    "lastName": "Peters",
+    "role": "sound director",
+    "cardImg": ""
+},
+{
+    "id": 16,
+    "firstName": "Marty",
+    "lastName": "Peters",
+    "role": "indie film director",
+    "cardImg": ""
+},
+{
+    "id": 17,
+    "firstName": "Brock",
+    "lastName": "Mitchell",
+    "role": "cancelled YouTuber",
+    "cardImg": ""
+},
+{
+    "id": 18,
+    "firstName": "Mama",
+    "lastName": "",
+    "role": "your mom",
+    "cardImg": ""
+},
+{
+    "id": 19,
+    "firstName": "Darlene",
+    "lastName": "Fox",
+    "role": "New York Times journalist",
+    "cardImg": ""
+},
+{
+    "id": 20,
+    "firstName": "Courtnee",
+    "lastName": "Jacobs",
+    "role": "heads your Twitter fan club",
+    "cardImg": ""
+},
+{
+    "id": 21,
+    "firstName": "JJ",
+    "lastName": "Maxwell",
+    "role": "vocal coach",
+    "cardImg": ""
+},
+{
+    "id": 23,
+    "firstName": "Silas",
+    "lastName": "O'Connor",
+    "role": "tour logistics",
+    "cardImg": ""
+},
+{
+    "id": 24,
+    "firstName": "Brady",
+    "lastName": "Hamlison",
+    "role": "hair & makeup",
+    "cardImg": ""
+},
+{
+    "id": 25,
+    "firstName": "Tosh",
+    "lastName": "Nicholson",
+    "role": "chaffeur",
+    "cardImg": ""
+},
+{
+    "id": 26,
+    "firstName": "Jayce",
+    "lastName": "Lyons",
+    "role": "Controversial YouTuber",
+    "cardImg": ""
+},
+{
+    "id": 27,
+    "firstName": "Neema",
+    "lastName": "Benson",
+    "role": "your agent",
+    "cardImg": ""
+},
+{
+    "id": 28,
+    "firstName": "Lolo",
+    "lastName": "Li",
+    "role": "live agent",
+    "cardImg": ""
+}
+]

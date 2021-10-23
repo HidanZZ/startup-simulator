@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="game">
+<div class="clouds">
+    <div class="wave"></div>
+    <div class="wave" style="left: 45%; bottom: 18px"></div>
+    <div class="wave" style="left: 55%;"></div>
+    <div class="wave" style="left: 63%;"></div>
+</div>
+<div id="screen-start" style="display: inline-block" class="board">
+    <div class="logoImage">
+
+    </div>
+    <div class="logo">
+
+    </div>
+    <div class="start-highscore" style=""></div>
+    <div class="button button-start-game">
+        <div class="button-top"></div>
+        <div class="button-middle"><span class="button-middle-content">Start Game</span></div>
+        <div class="button-bottom"></div>
+    </div>
+
+</div>
+<div id="screen-tutorial" class="board"><h1>Tutorial</h1>
+    <div>
+        <ul class="list-tutorial">
+            <li>Your goal is to have at least 1M followers by the end of the year</li>
+            <li>Use your time wisely!</li>
+            <li>Also, make sure to keep your crew is happy :)</li>
+        </ul>
+    </div>
+    <div class="button button-im-ready">
+        <div class="button-top"></div>
+        <div class="button-middle"><span class="button-middle-content">I'm ready!</span></div>
+        <div class="button-bottom"></div>
+    </div>
+
+</div>
+<div id="screen-game" class="board">
+
+    <div class="hud">
+        <div class="followers">
+            <div><span> <span class="followers-value">250</span><span class="followers-unit">M</span> </span>
+                <span class="followers-change" style="display: none; color: rgb(38, 187, 38); opacity: 100; top: -10px;">
+                    <span class="followers-change-value">+250M</span>
+                </span>
+            </div>
+            <div>Followers</div>
+        </div>
+        <div class="happiness">
+            <div class="happiness-value"><img
+                    src="https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/happiness-06.fa1c63c8.png"
+                    alt="Happy face icon" class=""></div>
+            <div class="hud-label">Happiness</div>
+        </div>
+        <div class="calendar">
+            <div class="calendar-week hud-label">January</div>
+            <div class="calendar-bar">
+                <div class="calendar-bar-fill" style="width: 80%; opacity: 1;"></div>
+                <div class="calendar-bar-delta" style="width: 0%;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card card0" style="transform: translateX(0%);">
+            <div class="card-picture">
+                <div class="card-picture-image"
+                     style="background-image: url('https://public-assets.toggl.com/b/assets/@toggl/startup-simulator/images/chad-marketing.2a6b9877.png');"></div>
+                <div class="card-picture-shadow"></div>
+            </div>
+            <div class="card-description">
+                <div class="card-description-character">Chad, marketing</div>
+                <div class="card-description-question">I just bought Snapchat spectacles for the whole team with company
+                    money. Rad!
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="buttons" style="">
+        <div class="button button-yes">
+            <div class="button-top"></div>
+            <div class="button-middle"><span class="button-middle-content">answer 1</span></div>
+            <div class="button-bottom"></div>
+        </div>
+        <div class="button button-no" style="">
+            <div class="button-top"></div>
+            <div class="button-middle"><span class="button-middle-content">answer 2</span></div>
+            <div class="button-bottom"></div>
+        </div>
+    </div>
+    <div class="buttons buttons-gameover" style="display: none;">
+
+        <div class="button button-restart">
+            <div class="button-top"></div>
+            <div class="button-middle"><span class="button-middle-content">Play again</span></div>
+            <div class="button-bottom"></div>
+        </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
